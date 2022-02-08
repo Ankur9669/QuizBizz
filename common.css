@@ -11,9 +11,12 @@ body{
 }
 :root{
     --background-color: #1B1B1B;
+    --background-color-dark1: #070707;
     --primary-color: #3454D1;
     --secondary-color: #D1345B;
     --tertiary-color: #34D1BF;
+    --primary-text-color:#EFEFEF;
+    --secondary-text-color: #3454D1;
 }
 *{
     box-sizing: border-box;
@@ -23,6 +26,20 @@ ul{
     margin: 0px;
     padding: 0px;
 }
+span{
+    margin: 0;
+    padding: 0;
+}
 .navbar{
     box-shadow: 0px 3px 3px 0px var(--tertiary-color);
+}
+.navbar-icons-container img{
+    width: 2rem;
+    cursor: pointer;
+}
+.col-1{
+    grid-column: 1 / 2;
+}
+.col-2{
+    grid-column: 2 / 3;
 }
