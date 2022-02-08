@@ -7,11 +7,12 @@ body{
     overflow-x: hidden;
     max-width: 125rem;
     margin: auto;
+    color: #EFEFEF;
 }
 :root{
     --background-color: #1B1B1B;
     --primary-color: #3454D1;
-    --secondary-color: #EFEFEF;
+    --secondary-color: #D1345B;
     --tertiary-color: #34D1BF;
 }
 *{
@@ -21,4 +22,7 @@ body{
 ul{
     margin: 0px;
     padding: 0px;
+}
+.navbar{
+    box-shadow: 0px 3px 3px 0px var(--tertiary-color);
 }

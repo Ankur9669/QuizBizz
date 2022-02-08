@@ -19,10 +19,6 @@
 
     <link
       rel="stylesheet"
-      href="https://deploy-preview-10--suspicious-sammet-33f1b3.netlify.app/Components/components.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://suspicious-sammet-33f1b3.netlify.app/Components/components.css"
     />
     <link rel="stylesheet" href="common.css" />
@@ -32,6 +28,40 @@
   <body>
     <!--  ******************************** Navbar Start ********************************  -->
 
+    <nav class="navbar">
+      <div>
+        <img
+          alt="hamburger-icon"
+          src="../images/hamburger.svg"
+          class="hamburger-icon"
+          id="hamburger-icon"
+        />
+      </div>
+      <div class="logo-container margin-horizontal-lg">
+        <div class="logo">
+          <span class="logo-text">QuizBizz</span>
+        </div>
+      </div>
+      <div class="nav-items-container-end">
+        <div class="login-search-bar-container">
+          <button class="button button-primary">Login</button>
+          <div class="input-box">
+            <input
+              type="text"
+              class="input"
+              value=""
+              onchange="change(this)"
+              required
+            />
+            <label class="input-label">Search</label>
+          </div>
+        </div>
+
+        <div class="navbar-icons-container">
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+      </div>
+    </nav>
     <!--  ******************************** Navbar End ********************************  -->
   </body>
 </html>
