@@ -73,6 +73,9 @@ span{
 .col-2{
     grid-column: 2 / 3;
 }
+.flex-1{
+    flex: 1;
+}
 .primary-color{
     color: var(--primary-color);
 }
@@ -85,6 +88,27 @@ span{
 .page-container{
     display: grid;
     grid-template-columns: 300px auto;
+}
+.quiz-heading-container{
+    margin: 2rem 2rem;
+}
+.quiz-btn-container{
+    margin: 2rem 2rem;
+}
+.quiz-info-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+}
+.quiz-info-image{
+    border-radius: 1rem;
+}
+.quiz-button{
+    padding: 1rem 3.5rem;
+    border-radius: 2rem;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 1.3rem;
 }
 @media only screen and (max-width: 870px){
     .page-container{
