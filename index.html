@@ -40,7 +40,8 @@
       <div class="logo-container margin-horizontal-lg">
         <div class="logo">
           <img src="images/quiz-bizz.svg" alt="quizbizz" class="logo-image" />
-          <span class="logo-text">QuizBizz</span>
+          <span class="logo-text">Quiz</span>
+          <span class="primary-color">Bizz</span>
         </div>
       </div>
       <div class="nav-items-container-end">
@@ -48,13 +49,10 @@
           <button class="button button-primary">Login</button>
           <div class="input-box">
             <input
-              type="text"
-              class="input"
-              value=""
-              onchange="change(this)"
-              required
+              type="search"
+              class="input simple-input nav-searchbar"
+              placeholder="Search.."
             />
-            <label class="input-label">Search</label>
           </div>
         </div>
 
@@ -70,26 +68,23 @@
     <!--  ******************************** Navbar End ********************************  -->
 
     <!--  ******************************** HomePage Container Start ********************************  -->
-    <main class="home-page-container">
-      <div class="sidebar col-1">
+    <main class="page-container">
+      <aside class="sidebar col-1">
         <div class="sidebar-items-container-mobile">
-          <a
-            class="nav-item-mobile font-large weight-semi-bold active"
-            id="alerts"
-          >
-            <i class="fa fa-cube" aria-hidden="true"></i>
-            Alerts
+          <a class="nav-item-mobile weight-semi-bold active" id="alerts">
+            <i class="fa fa-cube font-large" aria-hidden="true"></i>
+            <span class="nav-item-text font-medium-large">Dashboard</span>
           </a>
-          <a class="nav-item-mobile font-large weight-semi-bold" id="alerts">
-            <i class="fa fa-cube" aria-hidden="true"></i>
-            Alerts
+          <a class="nav-item-mobile weight-semi-bold" id="alerts">
+            <i class="fa fa-headphones font-large" aria-hidden="true"></i>
+            <span class="nav-item-text font-medium-large">Support</span>
           </a>
-          <a class="nav-item-mobile font-large weight-semi-bold" id="alerts">
-            <i class="fa fa-cube" aria-hidden="true"></i>
-            Alerts
+          <a class="nav-item-mobile weight-semi-bold" id="alerts">
+            <i class="fa fa-bell font-large" aria-hidden="true"></i>
+            <span class="nav-item-text font-medium-large">Notification</span>
           </a>
         </div>
-      </div>
+      </aside>
 
       <div class="col-2 hero-section-container">
         <!--  ******************************** Hero Section Start ********************************  -->
@@ -248,70 +243,79 @@
             </p>
             <div class="categories-cards-container">
               <!--********************* Javascript Card Start ********************* -->
-              <div class="card card-only-image">
-                <div class="text-overlay">
-                  <p class="font-medium-large weight-semi-bold">Javascript</p>
+              <a href="quizinstruction.html">
+                <div class="card card-only-image">
+                  <div class="text-overlay">
+                    <p class="font-medium-large weight-semi-bold">Javascript</p>
+                  </div>
+                  <div class="image-container">
+                    <img
+                      alt="Javascript"
+                      src="images/javascript.png"
+                      class="img-responsive"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
-                <div class="image-container">
-                  <img
-                    alt="Javascript"
-                    src="images/javascript.png"
-                    class="img-responsive"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
+              </a>
+
               <!--********************* Javascript Card End ********************* -->
 
               <!--********************* CSS Card Start ********************* -->
-              <div class="card card-only-image">
-                <div class="text-overlay">
-                  <p class="font-medium-large weight-semi-bold">CSS</p>
+              <a href="quizinstruction.html">
+                <div class="card card-only-image">
+                  <div class="text-overlay">
+                    <p class="font-medium-large weight-semi-bold">CSS</p>
+                  </div>
+                  <div class="image-container">
+                    <img
+                      alt="css"
+                      src="images/css.png"
+                      class="img-responsive"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
-                <div class="image-container">
-                  <img
-                    alt="css"
-                    src="images/css.png"
-                    class="img-responsive"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
+              </a>
               <!--********************* CSS card end ********************* -->
             </div>
 
-            <div class="spacer-2"></div>
             <div class="categories-cards-container">
               <!--********************* Javascript Card Start ********************* -->
-              <div class="card card-only-image">
-                <div class="text-overlay">
-                  <p class="font-medium-large weight-semi-bold">Javascript</p>
+              <a href="quizinstruction.html">
+                <div class="card card-only-image">
+                  <div class="text-overlay">
+                    <p class="font-medium-large weight-semi-bold">Javascript</p>
+                  </div>
+                  <div class="image-container">
+                    <img
+                      alt="card-image"
+                      src="images/javascript.png"
+                      class="img-responsive"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
-                <div class="image-container">
-                  <img
-                    alt="card-image"
-                    src="images/javascript.png"
-                    class="img-responsive"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
+              </a>
               <!--********************* Javascript Card End ********************* -->
 
               <!--********************* CSS Card Start ********************* -->
-              <div class="card card-only-image">
-                <div class="text-overlay">
-                  <p class="font-medium-large weight-semi-bold">CSS</p>
+              <a href="quizinstruction.html">
+                <div class="card card-only-image">
+                  <div class="text-overlay">
+                    <p class="font-medium-large weight-semi-bold">CSS</p>
+                  </div>
+                  <div class="image-container">
+                    <img
+                      alt="card-image"
+                      src="images/javascript.jpg"
+                      class="img-responsive"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
-                <div class="image-container">
-                  <img
-                    alt="card-image"
-                    src="images/javascript.jpg"
-                    class="img-responsive"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
+              </a>
+
               <!--********************* CSS card end ********************* -->
             </div>
             <div class="spacer-2"></div>
