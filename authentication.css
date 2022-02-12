@@ -94,7 +94,7 @@
     margin: 0rem auto 1.8rem auto;
 }
 .forgot-password-btn{
-    color: black;
+    color: var(--primary-text-color);
     background-color: transparent;
     cursor: pointer;
 }
