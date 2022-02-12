@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizBizz</title>
+
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://suspicious-sammet-33f1b3.netlify.app/Components/components.css"
+    />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="quizquestions.css" />
+  </head>
+
+  <body>
+    <!--  ******************************** Navbar Start ********************************  -->
+    <nav class="navbar">
+      <div>
+        <img
+          alt="hamburger-icon"
+          src="../images/hamburger.svg"
+          class="hamburger-icon"
+          id="hamburger-icon"
+        />
+      </div>
+      <div class="logo-container margin-horizontal-lg">
+        <div class="logo">
+          <img src="images/quiz-bizz.svg" alt="quizbizz" class="logo-image" />
+          <span class="logo-text">Quiz</span>
+          <span class="primary-color">Bizz</span>
+        </div>
+      </div>
+      <div class="nav-items-container-end">
+        <div class="login-search-bar-container">
+          <button class="button button-primary">Login</button>
+          <div class="input-box">
+            <input
+              type="search"
+              class="input simple-input nav-searchbar"
+              placeholder="Search.."
+            />
+          </div>
+        </div>
+
+        <div class="navbar-icons-container">
+          <img
+            src="images/quiz-avatar.svg"
+            alt="user"
+            class="img-round avatar"
+          />
+        </div>
+      </div>
+    </nav>
+    <!--  ******************************** Navbar End ********************************  -->
+
+    <!--  ******************************** HomePage Container Start ********************************  -->
+    <main class="page-container">
+      <!--  ******************************** Sidebar Start ********************************  -->
+      <aside class="sidebar col-1">
+        <div class="sidebar-items-container-mobile">
+          <a class="nav-item-mobile weight-semi-bold active" id="alerts">
+            <i class="fa fa-cube font-large" aria-hidden="true"></i>
+            <span class="nav-item-text font-medium-large">Dashboard</span>
+          </a>
+          <a class="nav-item-mobile weight-semi-bold" id="alerts">
+            <i class="fa fa-headphones font-large" aria-hidden="true"></i>
+            <span class="nav-item-text font-medium-large">Support</span>
+          </a>
+          <a class="nav-item-mobile weight-semi-bold" id="alerts">
+            <i class="fa fa-bell font-large" aria-hidden="true"></i>
+            <span class="nav-item-text font-medium-large">Notification</span>
+          </a>
+        </div>
+      </aside>
+      <!--  ******************************** Sidebar End ********************************  -->
+
+      <div class="col-2 hero-section-container">
+        <!--  ******************************** Hero Section Start ********************************  -->
+        <div class="quiz-heading-container">
+          <div class="wrapper">
+            <h1 class="h4">Your 5 out of 6 questions were correct!!!</h1>
+          </div>
+        </div>
+
+        <!--  ******************************** Quiz Options Container Start ********************************  -->
+        <div class="quiz-options-container">
+          <h2 class="primary-text-color font-medium-large weight-bold">
+            What is full form of css?
+          </h2>
+          <div class="spacer-2"></div>
+          <ul class="">
+            <li class="font-medium primary-text-color">
+              Cascading Style Sheets
+            </li>
+            <div class="spacer-1"></div>
+            <li>Cascading Style Sheets</li>
+            <div class="spacer-1"></div>
+            <li>Cascading Style Sheets</li>
+            <div class="spacer-1"></div>
+            <li>Cascading Style Sheets</li>
+          </ul>
+          <p class="font-medium weight-semi-bold primary-text-color">
+            Correct Answer: Cascading Style Sheets
+          </p>
+          <p class="font-medium weight-semi-bold primary-text-color">
+            Your Answer: Cascading Style Sheets
+          </p>
+        </div>
+        <!--  ******************************** Quiz Options Container End ********************************  -->
+
+        <!--  ******************************** Quiz Button Container Start ********************************  -->
+        <div class="quiz-btn-container">
+          <button class="button button-primary quiz-button prev-button">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            Prev Question
+          </button>
+          <button class="button button-primary quiz-button next-button">
+            Next Question
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </button>
+        </div>
+        <!--  ******************************** Quiz Button Container End ********************************  -->
+
+        <!--  ******************************** Hero Section End ********************************  -->
+      </div>
+    </main>
+    <!--  ******************************** HomePage Container End ********************************  -->
+  </body>
+</html>
