@@ -18,14 +18,14 @@
     justify-content: space-between;
 }
 .hero-user-image-container-lg{
-    width: 250px;
-    height: 250px;
-    margin: 0rem 2rem;
+    width: 15.6rem;
+    height: 15.6rem;
+    margin: 0 2rem;
 }
 .hero-user-image-container-sm{
     display: none;
-    width: 60px;
-    height: 60px;
+    width: 3.7rem;
+    height: 3.7rem;
     position: absolute;
     top: 2px;
     right: 10px;
