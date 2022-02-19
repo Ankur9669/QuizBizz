@@ -52,7 +52,7 @@ span{
 }
 .nav-item-mobile i{
     flex: 0.2;
-    margin: 0rem 0.5rem 0rem 2.5rem;
+    margin: 0 0.5rem 0 2.5rem;
 }
 .nav-item-text{
     flex: 1;
