@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizBizz</title>
+
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://suspicious-sammet-33f1b3.netlify.app/Components/components.css"
+    />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="quizinstruction.css" />
+  </head>
+
+  <body>
+    <!--  ******************************** Navbar Start ********************************  -->
+    <nav class="navbar">
+      <div>
+        <img
+          alt="hamburger-icon"
+          src="../images/hamburger.svg"
+          class="hamburger-icon"
+          id="hamburger-icon"
+        />
+      </div>
+      <div class="logo-container margin-horizontal-lg">
+        <div class="logo">
+          <img src="images/quiz-bizz.svg" alt="quizbizz" class="logo-image" />
+          <span class="logo-text">Quiz</span>
+          <span class="primary-color">Bizz</span>
+        </div>
+      </div>
+      <div class="nav-items-container-end">
+        <div class="login-search-bar-container">
+          <button class="button button-primary">Login</button>
+          <div class="input-box">
+            <input
+              type="search"
+              class="input simple-input nav-searchbar"
+              placeholder="Search.."
+            />
+          </div>
+        </div>
+
+        <div class="navbar-icons-container">
+          <img
+            src="images/quiz-avatar.svg"
+            alt="user"
+            class="img-round avatar"
+          />
+        </div>
+      </div>
+    </nav>
+    <!--  ******************************** Navbar End ********************************  -->
+
+    <!--  ******************************** HomePage Container Start ********************************  -->
+    <main class="page-container">
+      <!--  ******************************** Sidebar Start ********************************  -->
+      <aside class="sidebar col-1">
+        <div class="sidebar-items-container-mobile">
+          <a class="nav-item-mobile weight-semi-bold active" id="alerts">
+            <i class="fa fa-cube font-large" aria-hidden="true"></i>
+            <span class="nav-item-text font-medium-large">Dashboard</span>
+          </a>
+          <a class="nav-item-mobile weight-semi-bold" id="alerts">
+            <i class="fa fa-headphones font-large" aria-hidden="true"></i>
+            <span class="nav-item-text font-medium-large">Support</span>
+          </a>
+          <a class="nav-item-mobile weight-semi-bold" id="alerts">
+            <i class="fa fa-bell font-large" aria-hidden="true"></i>
+            <span class="nav-item-text font-medium-large">Notification</span>
+          </a>
+        </div>
+      </aside>
+      <!--  ******************************** Sidebar End ********************************  -->
+
+      <div class="col-2 hero-section-container">
+        <!--  ******************************** Hero Section Start ********************************  -->
+        <div class="quiz-heading-container">
+          <div class="wrapper">
+            <h1 class="h4">CSS Quiz</h1>
+            <p class="font-medium primary-text-color">
+              Read the following instructions carefully
+            </p>
+          </div>
+          <div class="image-container">
+            <img src="images/css.png" class="img-responsive quiz-info-image" />
+          </div>
+        </div>
+
+        <!--  ******************************** Quiz Image and details container Start ********************************  -->
+        <div class="quiz-info-container">
+          <div class="image-container">
+            <img src="images/css.png" class="img-responsive quiz-info-image" />
+          </div>
+          <div class="quiz-info">
+            <div class="spacer-1"></div>
+            <div class="quiz-info-item">
+              <span
+                class="font-medium-large weight-bold flex-1 margin-horizontal-lg"
+                >Date:</span
+              >
+              <span
+                class="font-medium-large weight-normal flex-1 margin-horizontal-lg"
+                >12/10/2001</span
+              >
+            </div>
+            <div class="spacer-1"></div>
+            <div class="quiz-info-item">
+              <span
+                class="font-medium-large weight-bold flex-1 margin-horizontal-lg"
+                >Time Limit:</span
+              >
+              <span
+                class="font-medium-large weight-normal flex-1 margin-horizontal-lg"
+                >30 min</span
+              >
+            </div>
+            <div class="spacer-1"></div>
+            <div class="quiz-info-item">
+              <span
+                class="font-medium-large weight-bold flex-1 margin-horizontal-lg"
+                >Attempts:</span
+              >
+              <span
+                class="font-medium-large weight-normal flex-1 margin-horizontal-lg"
+                >3</span
+              >
+            </div>
+            <div class="spacer-1"></div>
+            <div class="quiz-info-item">
+              <span
+                class="font-medium-large weight-bold flex-1 margin-horizontal-lg"
+                >Points:</span
+              >
+              <span
+                class="font-medium-large weight-normal flex-1 margin-horizontal-lg"
+                >200</span
+              >
+            </div>
+            <div class="spacer-1"></div>
+          </div>
+        </div>
+        <!--  ******************************** Quiz Image and details container End ********************************  -->
+
+        <!--  ******************************** Quiz Instructions Container Start ********************************  -->
+        <div class="quiz-instructions-container">
+          <h2 class="primary-text-color font-medium-large weight-bold">
+            Instructions
+          </h2>
+          <div class="spacer-2"></div>
+          <p class="primary-text-color font-medium-large weight-normal">
+            This quiz consists of 5 multiple-choice questions. To be successfull
+            with the quizes, it is important to be conversant with all the
+            topics.
+          </p>
+          <div class="spacer-2"></div>
+          <p class="primary-text-color font-medium-large weight-normal">
+            This quiz consists of 5 multiple-choice questions. To be successfull
+            with the quizes, it is important to be conversant with all the
+            topics.
+          </p>
+          <div class="spacer-2"></div>
+          <p class="primary-text-color font-medium-large weight-normal">
+            To start click "Start" button. When finished click submit button.
+          </p>
+        </div>
+        <!--  ******************************** Quiz Instructions Container End ********************************  -->
+
+        <!--  ******************************** Quiz Button Container Start ********************************  -->
+        <div class="quiz-btn-container">
+          <button class="button button-primary quiz-button">Start</button>
+        </div>
+        <!--  ******************************** Quiz Button Container End ********************************  -->
+
+        <!--  ******************************** Hero Section End ********************************  -->
+      </div>
+    </main>
+    <!--  ******************************** HomePage Container End ********************************  -->
+  </body>
+</html>
