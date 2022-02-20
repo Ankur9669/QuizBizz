@@ -79,6 +79,9 @@ span{
 .primary-color{
     color: var(--primary-color);
 }
+.secondary-color{
+    color: var(--secondary-color);
+}
 .input-box .nav-searchbar{
    color: var(--primary-text-color);
 }
