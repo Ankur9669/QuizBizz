@@ -91,6 +91,9 @@
     background-color: transparent;
     cursor: pointer;
 }
+.card-hover:hover{
+    box-shadow: var(--tertiary-color) 0px 1px 3px 0px, var(--tertiary-color) 0px 0px 0px 1px;
+}
 .text-overlay{
     justify-content: start;
     align-items: flex-end;
