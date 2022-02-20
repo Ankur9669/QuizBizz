@@ -6,7 +6,8 @@ Currently the quizbizz app contains only screens and the functionality will be a
 
 Currently the app contains the following screens:
 
-- Home Page or User Profile Page + Quiz Category Page[https://quizbizz.netlify.app/](https://quizbizz.netlify.app/)
+- Home Page or User Profile Page + Quiz Category Page
+  Preview: [https://quizbizz.netlify.app/](https://quizbizz.netlify.app/)
 - Quiz Instruction Page
 - Quiz questions page
 - Result Page
