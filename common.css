@@ -84,6 +84,9 @@ span{
 .primary-color{
     color: var(--primary-color);
 }
+.primary-text-color{
+    color: var(--primary-text-color);
+}
 .input-box .nav-searchbar{
    color: var(--primary-text-color);
 }
