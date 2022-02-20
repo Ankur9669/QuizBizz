@@ -2,6 +2,8 @@
 
 Quizbizz is a app where you can play quizzes on various things. Playing these quizzes will not only make your mood lighter but will also increase your knowledge.
 
+![quizappscreen](https://github.com/Ankur9669/QuizBizz/blob/Readme/images/quiz.png)
+
 ---
 
 # Screens
