@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://suspicious-sammet-33f1b3.netlify.app/Components/components.css" />
   <link rel="stylesheet" href="common.css" />
   <link rel="stylesheet" href="index.css" />
-  <link rel="stylesheet" href="quizquestions.css" />
+  <link rel="stylesheet" href="quizanswers.css" />
 </head>
 
 <body>
@@ -24,15 +24,15 @@
       <img alt="hamburger-icon" src="../images/hamburger.svg" class="hamburger-icon" id="hamburger-icon" />
     </div>
     <div class="logo-container margin-horizontal-lg">
-      <a href="index.html" class="logo">
+      <div class="logo">
         <img src="images/quiz-bizz.svg" alt="quizbizz" class="logo-image" />
         <span class="logo-text">Quiz</span>
         <span class="primary-color">Bizz</span>
-      </a>
+      </div>
     </div>
     <div class="nav-items-container-end">
       <div class="login-search-bar-container">
-        <a href="login.html" class="button button-primary">Login</a>
+        <button class="button button-primary">Login</button>
         <div class="input-box">
           <input type="search" class="input simple-input nav-searchbar" placeholder="Search.." />
         </div>
@@ -70,83 +70,86 @@
       <!--  ******************************** Hero Section Start ********************************  -->
       <div class="quiz-heading-container">
         <div class="wrapper">
-          <h1 class="h4">CSS Quiz</h1>
-          <p class="font-medium primary-text-color">
-            Read the following instructions carefully
-          </p>
-        </div>
-        <p class="timer-container font-medium-large weight-bold">
-          Timer: 20:00 min
-        </p>
-      </div>
-
-      <!--  ******************************** Quiz Image and question container Start ********************************  -->
-      <div class="quiz-info-container quiz-question-container">
-        <div class="image-container">
-          <img src="images/css.png" class="img-responsive quiz-info-image" alt="css" />
-        </div>
-        <div class="quiz-question">
-          <h2 class="font-medium-large weight-semi-bold primary-color">
-            Question 1 / 5:
-          </h2>
-          <div class="spacer-1"></div>
-          <p class="font-medium-large weight-semi-bold primary-text-color" aria-label="question">
-            What is the full form of CSS? What is the full form of CSS? What
-            is the full form of CSS? What is the full form of CSS? What is the
-            full form of CSS?
-          </p>
+          <h1 class="h4">Your 5 out of 6 questions were correct!!!</h1>
         </div>
       </div>
-      <!--  ******************************** Quiz Image and question container End ********************************  -->
 
-      <!--  ******************************** Quiz Options Container Start ********************************  -->
-      <div class="quiz-options-container">
+      <!--  ******************************** Quiz Question Answer Container Start ********************************  -->
+      <div class="quiz-question-answer-container">
         <h2 class="primary-text-color font-medium-large weight-bold">
-          Choose answer
+          What is full form of css?
         </h2>
         <div class="spacer-2"></div>
-        <ul class="list-style-none" aria-label="options">
-          <li>
-            <input type="radio" name="option" id="option-1" />
-            <label for="option-1" class="margin-horizontal-lg font-medium-large weight-semi-bold">
-              Cascading Style Sheets
-            </label>
+        <ol class="quiz-questions-container list-style-upper-alphabets">
+          <li class="font-medium-large primary-text-color">
+            Cascading Style Sheets
           </li>
           <div class="spacer-1"></div>
-          <li>
-            <input type="radio" name="option" id="option-2" />
-            <label for="option-2" class="margin-horizontal-lg font-medium-large weight-semi-bold">
-              Cascading Style Sheets
-            </label>
+          <li class="font-medium-large primary-text-color">
+            Cascading Style Sheets
           </li>
           <div class="spacer-1"></div>
-          <li>
-            <input type="radio" name="option" id="option-3" />
-            <label for="option-3" class="margin-horizontal-lg font-medium-large weight-semi-bold">
-              Cascading Style Sheets
-            </label>
+          <li class="font-medium-large primary-text-color">
+            Cascading Style Sheets
           </li>
           <div class="spacer-1"></div>
-          <li>
-            <input type="radio" name="option" id="option-4" />
-            <label for="option-4" class="margin-horizontal-lg font-medium-large weight-semi-bold">
-              Cascading Style Sheets
-            </label>
+          <li class="font-medium-large primary-text-color">
+            Cascading Style Sheets
           </li>
-        </ul>
+        </ol>
+        <div class="spacer-2"></div>
+        <p class="font-medium weight-semi-bold primary-text-color correct-answer">
+          Correct Answer: Cascading Style Sheets
+        </p>
+        <div class="spacer-1"></div>
+        <p class="font-medium weight-semi-bold primary-text-color correct-answer">
+          Your Answer: Cascading Style Sheets
+        </p>
       </div>
-      <!--  ******************************** Quiz Options Container End ********************************  -->
+      <!--  ******************************** Quiz Question Answer Container End ********************************  -->
+
+      <div class="spacer-2"></div>
+
+      <!--  ******************************** Quiz Question Answer Container Start ********************************  -->
+      <div class="quiz-question-answer-container">
+        <h2 class="primary-text-color font-medium-large weight-bold">
+          What is full form of css?
+        </h2>
+        <div class="spacer-2"></div>
+        <ol class="quiz-questions-container list-style-upper-alphabets">
+          <li class="font-medium-large primary-text-color">
+            Cascading Style Sheets
+          </li>
+          <div class="spacer-1"></div>
+          <li class="font-medium-large primary-text-color">
+            Cascading Style Sheets
+          </li>
+          <div class="spacer-1"></div>
+          <li class="font-medium-large primary-text-color">
+            Cascading Style Sheets
+          </li>
+          <div class="spacer-1"></div>
+          <li class="font-medium-large primary-text-color">
+            Cascading Style Sheets
+          </li>
+        </ol>
+        <div class="spacer-2"></div>
+        <p class="font-medium weight-semi-bold primary-text-color correct-answer">
+          Correct Answer: Cascading Style Sheets
+        </p>
+        <div class="spacer-1"></div>
+        <p class="font-medium weight-semi-bold primary-text-color wrong-answer">
+          Your Answer: Cascading Style Sheets
+        </p>
+      </div>
+      <!--  ******************************** Quiz Question Answer Container End ********************************  -->
 
       <!--  ******************************** Quiz Button Container Start ********************************  -->
       <div class="quiz-btn-container">
-        <button class="button button-primary quiz-button prev-button" aria-label="previous-button">
+        <button class="button button-primary quiz-button prev-button">
           <i class="fa fa-angle-left" aria-hidden="true"></i>
-          Prev Question
+          Retake Quiz
         </button>
-        <a href="quizanswers.html" class="button button-primary quiz-button next-button" aria-label="next-button">
-          Next Question
-          <i class="fa fa-angle-right" aria-hidden="true"></i>
-        </a>
       </div>
       <!--  ******************************** Quiz Button Container End ********************************  -->
 
