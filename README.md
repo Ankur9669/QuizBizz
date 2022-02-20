@@ -10,5 +10,7 @@ Currently the app contains the following screens:
   -- Preview: [https://quizbizz.netlify.app/](https://quizbizz.netlify.app/)
 - Quiz Instruction Page
   -- Preview: [https://quizbizz.netlify.app/quizinstruction.html](https://quizbizz.netlify.app/quizinstruction.html)
-- Quiz questions page[https://quizbizz.netlify.app/quizquestions.html](https://quizbizz.netlify.app/quizquestions.html)
-- Result Page[https://quizbizz.netlify.app/quizanswers.html](https://quizbizz.netlify.app/quizanswers.html)
+- Quiz questions page
+  -- Preview: [https://quizbizz.netlify.app/quizquestions.html](https://quizbizz.netlify.app/quizquestions.html)
+- Result Page
+  -- Preview: [https://quizbizz.netlify.app/quizanswers.html](https://quizbizz.netlify.app/quizanswers.html)
