@@ -1,116 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>QuizBizz</title>
 
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuizBizz</title>
 
-    <link
-      rel="stylesheet"
-      href="https://suspicious-sammet-33f1b3.netlify.app/Components/components.css"
-    />
-    <link rel="stylesheet" href="common.css" />
-    <link rel="stylesheet" href="authentication.css" />
-  </head>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 
-  <body class="wrapper">
-    <!--  ******************************** Navbar Start ********************************  -->
-    <nav class="navbar">
-      <div>
-        <i class="fa fa-bars hamburger-icon" aria-hidden="true"></i>
+  <link rel="stylesheet" href="https://suspicious-sammet-33f1b3.netlify.app/Components/components.css" />
+  <link rel="stylesheet" href="common.css" />
+  <link rel="stylesheet" href="authentication.css" />
+</head>
+
+<body class="wrapper">
+  <!--  ******************************** Navbar Start ********************************  -->
+  <nav class="navbar">
+    <div>
+      <i class="fa fa-bars hamburger-icon" aria-hidden="true"></i>
+    </div>
+    <div class="logo-container">
+      <a href="index.html" class="logo">
+        <img src="images/quiz-bizz.svg" alt="quizbizz" class="logo-image" />
+        <span class="logo-text">Quiz</span>
+        <span class="primary-color logo-text">Bizz</span>
+      </a>
+    </div>
+    <div class="nav-items-container-end">
+      <a href="index.html" class="navbar-icons-container">
+        <img src="images/quiz-avatar.svg" alt="user" class="img-round avatar" />
+      </a>
+    </div>
+  </nav>
+  <!--  ******************************** Navbar End ********************************  -->
+
+  <!--  ******************************** Login Container Start ********************************  -->
+  <div class="spacer-3"></div>
+  <main>
+    <img src="images/blob.svg" class="blob blob1" />
+    <img src="images/blob.svg" class="blob blob2" />
+    <div class="authentication login">
+      <div class="authentication-image-container">
+        <img src="images/quizbizz-login.svg" alt="login-image" />
       </div>
-      <div class="logo-container">
-        <div class="logo">
-          <img src="images/quiz-bizz.svg" alt="quizbizz" class="logo-image" />
-          <span class="logo-text">Quiz</span>
-          <span class="primary-color logo-text">Bizz</span>
-        </div>
-      </div>
-      <div class="nav-items-container-end">
-        <div class="navbar-icons-container">
-          <img
-            src="images/quiz-avatar.svg"
-            alt="user"
-            class="img-round avatar"
-          />
-        </div>
-      </div>
-    </nav>
-    <!--  ******************************** Navbar End ********************************  -->
-
-    <!--  ******************************** Login Container Start ********************************  -->
-    <div class="spacer-3"></div>
-    <main>
-      <img src="images/blob.svg" class="blob blob1" />
-      <img src="images/blob.svg" class="blob blob2" />
-      <div class="authentication login">
-        <div class="authentication-image-container">
-          <img src="images/quizbizz-login.svg" alt="login-image" />
-        </div>
-        <div class="authentication-form-container">
-          <form class="authentication-form">
-            <h2 class="font-large weight-semi-bold authentication-form-heading">
-              <span class="logo-text font-large">FiT</span>BiT
-            </h2>
-            <p
-              class="font-medium-large weight-semi-bold authentication-form-sub-heading"
-            >
-              LOGIN INTO YOUR ACCOUNT
-            </p>
-            <div class="form-input-box">
-              <input
-                type="email"
-                placeholder="Email Address"
-                class="font-medium"
-              />
-              <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            </div>
-            <div class="form-input-box">
-              <input
-                type="password"
-                placeholder="Password"
-                class="font-medium"
-              />
-              <i class="fa fa-eye" aria-hidden="true"></i>
-            </div>
-            <div class="checkbox-container">
-              <span>
-                <input type="checkbox" value="Remember Box" id="remember-me" />
-                <label for="remember-me" class="font-medium">
-                  Remember Me
-                </label>
-              </span>
-              <a
-                class="forgot-password-btn font-medium"
-                href="forgotpassword.html"
-              >
-                Forgot Password
-              </a>
-            </div>
-            <button class="button button-primary form-cta-button">Login</button>
-            <a
-              class="button button-outline-primary form-cta-button"
-              href="signup.html"
-            >
-              SignUp With Us
+      <div class="authentication-form-container">
+        <form class="authentication-form">
+          <h2 class="font-large weight-semi-bold authentication-form-heading">
+            <span class="logo-text font-large">FiT</span>BiT
+          </h2>
+          <p class="font-medium-large weight-semi-bold authentication-form-sub-heading">
+            LOGIN INTO YOUR ACCOUNT
+          </p>
+          <div class="form-input-box">
+            <input type="email" placeholder="Email Address" class="font-medium" />
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </div>
+          <div class="form-input-box">
+            <input type="password" placeholder="Password" class="font-medium" />
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          <div class="checkbox-container">
+            <span>
+              <input type="checkbox" value="Remember Box" id="remember-me" />
+              <label for="remember-me" class="font-medium">
+                Remember Me
+              </label>
+            </span>
+            <a class="forgot-password-btn font-medium" href="forgotpassword.html">
+              Forgot Password
             </a>
-          </form>
-        </div>
+          </div>
+          <button class="button button-primary form-cta-button">Login</button>
+          <a class="button button-outline-primary form-cta-button" href="signup.html">
+            SignUp With Us
+          </a>
+        </form>
       </div>
-    </main>
-    <div class="spacer-3"></div>
-    <!--  ******************************** Login Container End ********************************  -->
-  </body>
+    </div>
+  </main>
+  <div class="spacer-3"></div>
+  <!--  ******************************** Login Container End ********************************  -->
+</body>
+
 </html>
