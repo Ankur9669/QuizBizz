@@ -24,11 +24,12 @@
       <img alt="hamburger-icon" src="../images/hamburger.svg" class="hamburger-icon" id="hamburger-icon" />
     </div>
     <div class="logo-container margin-horizontal-lg">
-      <div class="logo">
+      <a href="index.html" class="logo">
         <img src="images/quiz-bizz.svg" alt="quizbizz" class="logo-image" />
         <span class="logo-text">Quiz</span>
         <span class="primary-color">Bizz</span>
-      </div>
+      </a>
+
     </div>
     <div class="nav-items-container-end">
       <div class="login-search-bar-container">
@@ -75,22 +76,23 @@
             Read the following instructions carefully
           </p>
         </div>
-        <div class="timer-container font-medium-large weight-bold">
+
+        <p class="timer-container font-medium-large weight-bold">
           Timer: 20:00 min
-        </div>
+        </p>
       </div>
 
       <!--  ******************************** Quiz Image and question container Start ********************************  -->
       <div class="quiz-info-container quiz-question-container">
         <div class="image-container">
-          <img src="images/css.png" class="img-responsive quiz-info-image" />
+          <img src="images/css.png" class="img-responsive quiz-info-image" alt="css" />
         </div>
         <div class="quiz-question">
           <h2 class="font-medium-large weight-semi-bold primary-color">
             Question 1 / 5:
           </h2>
           <div class="spacer-1"></div>
-          <p class="font-medium-large weight-semi-bold primary-text-color">
+          <p class="font-medium-large weight-semi-bold primary-text-color" aria-label="question">
             What is the full form of CSS? What is the full form of CSS? What
             is the full form of CSS? What is the full form of CSS? What is the
             full form of CSS?
@@ -105,7 +107,7 @@
           Choose answer
         </h2>
         <div class="spacer-2"></div>
-        <ul class="list-style-none">
+        <ul class="list-style-none" aria-label="options">
           <li>
             <input type="radio" name="option" id="option-1" />
             <label for="option-1" class="margin-horizontal-lg font-medium-large weight-semi-bold">
@@ -139,14 +141,15 @@
 
       <!--  ******************************** Quiz Button Container Start ********************************  -->
       <div class="quiz-btn-container">
-        <button class="button button-primary quiz-button prev-button">
+        <button class="button button-primary quiz-button prev-button" aria-label="previous-button">
           <i class="fa fa-angle-left" aria-hidden="true"></i>
           Prev Question
         </button>
-        <a href="quizanswers.html" class="button button-primary quiz-button next-button">
+        <a href="quizanswers.html" class="button button-primary quiz-button next-button" aria-label="next-button">
           Next Question
           <i class="fa fa-angle-right" aria-hidden="true"></i>
         </a>
+
       </div>
       <!--  ******************************** Quiz Button Container End ********************************  -->
 
